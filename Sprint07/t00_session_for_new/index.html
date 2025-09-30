@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title> Superhero Application </title>
+</head>
+<body>
+<h1> Superhero Form </h1>
+<form id="superhero-form" method="POST" action="/">
+    <fieldset id="about-the-superhero fieldset">
+        <legend> About The Superhero </legend>
+        <label for="real-name"> Real Name </label>
+        <input type="text" id="real-name" name="real-name" placeholder="Superhero real name" required />
+        <label for="superhero-name"> Superhero Name </label>
+        <input type="text" id="superhero-name" name="superhero-name" placeholder="Superhero alias"/>
+        <label for="age"> Age </label>
+        <input type="number" id="age" name="age" max="999" min="1"/>
+        <br><br>
+        <label for="superhero-about"> About </label>
+        <textarea id="superhero-about" name="superhero-about"
+                  placeholder="Information about the superhero, max 500 symbols"
+                  rows="5" cols="70" maxlength="500"></textarea>
+        <br><br>
+        <label for="superhero-photo"> Photo: </label>
+        <input type="file" id="superhero-photo" name="superhero-photo" placeholder="Choose file">
+        <br><br>
+    </fieldset>
+    <fieldset id="powers fieldset">
+        <legend> Powers </legend>
+        <input type="checkbox" id="powers1" name="powers" value="telekinesis">
+        <label for="powers1"> Telekinesis </label>
+
+        <input type="checkbox" id="powers2" name="powers" value="super strength or speed">
+        <label for="powers2"> Super strength or speed </label>
+
+        <input type="checkbox" id="powers3" name="powers" value="shapeshifting">
+        <label for="powers3"> Shapeshifting </label>
+
+        <input type="checkbox" id="powers4" name="powers" value="flight">
+        <label for="powers4"> Flight </label>
+
+        <input type="checkbox" id="powers5" name="powers" value="elemental control">
+        <label for="powers5"> Elemental control </label>
+
+        <input type="checkbox" id="powers6" name="powers" value="other">
+        <label for="powers6"> Other </label>
+
+        <br><br>
+        <label for="level-of-control"> Level of Control: </label>
+        <input type="range" id="level-of-control" name="level-of-control" min="0" max="10" step="1" value="1">
+        <br><br>
+    </fieldset>
+    <fieldset>
+        <legend> Origin of Powers</legend>
+        <input type="radio" id="origin1" name="origin" value="Unknown" />
+        <label for="origin1"> Unknown </label>
+        <input type="radio" id="origin2" name="origin" value="Freak lab accident" />
+        <label for="origin2"> Freak lab accident </label>
+        <input type="radio" id="origin3" name="origin" value="Chosen by ancient wise being" />
+        <label for="origin3"> Chosen by an ancient wise being </label>
+        <input type="radio" id="origin4" name="origin" value="The superhero is not human" />
+        <label for="origin4"> The superhero is not human </label>
+        <input type="radio" id="origin5" name="origin" value="Other" />
+        <label for="origin5"> Other </label>
+    </fieldset>
+    <br>
+    <input type="reset" value="CLEAR" />
+    <input type="submit" value="SEND" />
+    <br><br>
+</form>
+</body>
+</html>

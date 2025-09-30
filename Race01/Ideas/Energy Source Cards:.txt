@@ -1,0 +1,69 @@
+Energy Source Cards:
+
+Nest of Decay:
++1 Energy per turn. should stack if multiple(f.i if 3 then gives 4 energy)
+
+Sporesurge
++(more than 1 ept) but deals some damage to player, might only be placed once.
+
+
+
+Leader / Class Cards
+The Thing – Leader (Default) – 0 (я подумав, що можна щоб був дефолт клас, який в тебе лежить, а потім ти його замінюєш на клас який випав)
+
+Queen 
+something like +attack
+
+Overlord
+something like +defense
+
+
+Creatures cards:
+e/n/m - ENERGY/ATK/DEF, I've written those approximately, you decide on the final values
+
+Gnawling - lightweight like 1/1/1, should be many, can be spawned more with queen or something
+
+infect - also light - 2/2/3
+
+Ravager Grub - 3/4/1
+
+Mutalisk - 5/3/6 something like transportation which gives +def
+
+viper - something like if our attack wins - infects some of opps entities
+
+
+
+Spells cards:
+
+Viral Bloom
+→ Releases unstable mutagens into enemy lines.
+Effect: Target gets -2/-2.
+
+Spinal Reforge
+→ Twists friendly flesh into stronger bioforms.
+Effect: Buff friendly unit +2/+2 and gains "Infect" trait. that means, that if it kills some opp it becomes infect on our side or something like that
+
+Rupture Howl
+→ Infuses with rage. Burns bright. Dies faster.
+Effect: +3 ATK, dies next turn.
+
+Neural Infestation
+→ Overwrites enemy leader’s thoughts temporarily.
+Effect: idk)
+
+Rapid Molt
+→ Forced metamorphosis mid-combat.
+Effect: +1/+1
+
+Flesh Amalgam
+→ Two bodies twisted into one.
+Effect: Merge two creatures into one (combined stats).
+
+Spore Matrix
+→ Cloud of regenerating spores floods battlefield.
+Effect: All creatures gain +1 regen/turn. 
+
+Corpse Rebirth
+→ The swarm never dies. It becomes.
+Effect: Revive last dead creature with sth, like "infect"
+

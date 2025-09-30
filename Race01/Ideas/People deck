@@ -1,0 +1,71 @@
+People deck
+
+-------------------------------------------------------
+Energy source cards:
+
+Arc Reactor
+
+Effect +1 Energy
+
+Fusion Beacon
+→ Hyper-condensed plasma core. One-time deploy.
+Effect: +3 Energy/turn, but deals take -1 from DEF for all units places or something
+-------------------------------------------------------
+
+-------------------------------------------------------
+Leader / Class Cards:
+ Standard Operative(default)
+
+ Field Commander (Upgrade)
+ Grants attack drills and morale boosts.
+Passive: Units gain +1 ATK. Once per match, rally: all units have +2 ATK in this turn
+
+Aegis Marshal (Upgrade)
+→ Defensive legend. Wears mech-tier armor.
+Passive: gives one unit immune to Infect or something. +2 DEF to all active units. or something like that
+-------------------------------------------------------
+
+-------------------------------------------------------
+Creature Cards:
+
+Wall Trooper – 2/2/3
+→ Riot-trained soldiers. Absorb the swarm.
+
+Strike Agent – 3/5/2
+→ Drops in, hits hard.
+
+EMP Specialist – 4/3/3
+→ Blasts enemy buffs.
+Effect: On deploy, remove one of enemie's +buffs
+
+Exosuit Guardian – 5/3/6
+→ Tank in armor. Literally.
+
+Skyranger Dropship – 6/2/8
+→ Massive transport with turrets.
+Effect: Buffs all new units with +1 DEF.
+-------------------------------------------------------
+
+-------------------------------------------------------
+Spell / Utility Cards
+
+    Clean Sweep
+    → Deploys aerial nanobots.
+    Effect: Deal 2 damage to 3 enemy creatures. Remove Infect from your side.
+
+    Emergency Drop
+→ Rains down fast deploy squads.
+Effect: Deploys 2 Wall Troopers instantly.
+
+Hardened Will
+→ Override fear and toxin.
+Effect: All allies immune to infection for 2 turns.
+
+Fortify Node
+→ Shield generator deployed mid-battle.
+Effect: All allies gain +2 DEF. Lasts 2 turns.
+
+Final Protocol
+→ Nuclear failsafe activated.
+Effect: If HP < 5, deal total of 12 damgage to enemies One-time only.
+-------------------------------------------------------

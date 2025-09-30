@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: moveCircle 4s linear infinite;
+    transition: background-color 2s;
+}
+.circle:hover {
+    background-color: red;
+}
+@keyframes moveCircle {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: calc(100% - 100px);
+    }
+    100% {
+        left: 0;
+    }
+}

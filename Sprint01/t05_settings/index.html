@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Settings</title>
+    <meta name="description" content="t05">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1>Settings</h1>
+<div class="window">
+    <div class="settings-container">
+        <div class="typeface-section">
+            <label for="typeface-choices">Typeface</label>
+            <select id="typeface-choices" name="typeface-choices">
+                <option value="Acunim Pro">Acunim Pro</option>
+                <option value="Comic Sans" >Comic Sans</option>
+                <option value="Times New Roman">Times New Roman</option>
+            </select>
+        </div>
+
+        <div class="weight-section">
+            <label>Weight</label>
+            <div class="weight-options">
+                <div class="weight-option">
+                    <input type="radio" id="regular-weight" name="weight-choices" checked>
+                    <label for="regular-weight">Regular</label>
+                </div>
+                <div class="weight-option">
+                    <input type="radio" id="bold-weight" name="weight-choices" >
+                    <label for="bold-weight"><b>Bold</b></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="size-section">
+            <label for="size-range">Size</label>
+            <input type="range" id="size-range" name="size-range" min="4" max="64" value="50">
+            <div class="size-indicators">
+                <span class="small">A</span>
+                <span class="large">A</span>
+            </div>
+        </div>
+
+        <div class="dark-ui-section">
+            <label for="ui-theme-switch">Dark UI</label>
+            <input type="checkbox" id="ui-theme-switch" name="ui-theme-switch" class="checkbox">
+            <label for="ui-theme-switch" class="switch"></label>
+        </div>
+
+        <div class="color-section">
+            <label>Color</label>
+
+            <div class="color-options">
+                <input type="radio" id="color-blue" name="color" value="blue">
+                <label for="color-blue" class="color-option blue"></label>
+
+                <input type="radio" id="color-green" name="color" value="green" checked>
+                <label for="color-green" class="color-option green"></label>
+
+                <input type="radio" id="color-pink" name="color" value="pink">
+                <label for="color-pink" class="color-option pink"></label>
+
+                <input type="radio" id="color-yellow" name="color" value="yellow">
+                <label for="color-yellow" class="color-option yellow"></label>
+
+                <input type="radio" id="color-orange" name="color" value="orange">
+                <label for="color-orange" class="color-option orange"></label>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="sidebar-container">
+        <img src="assets/images/artistic-brush.png" alt="Settings window">
+        <img src="assets/images/user-icon.png" alt="Profile window">
+        <img src="assets/images/sms-speech-bubble.png" alt="Chat window">
+        <img src="assets/images/computer-screen.png" alt="Screen share window">
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+.superhero-cards-container {
+    display: flex;
+    padding-top: 1em;
+    align-content: space-evenly;
+    row-gap: 30px;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.superhero-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    width: 290px;
+    height: 160px;
+    border-radius: 5px;
+    background-color: green;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.superhero-card h1 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 12px;
+    font-weight: 1000;
+    color: white;
+}
+
+.superhero-card h2 {
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.superhero-card img {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    width: auto;
+    height: 182px;
+}
+
+#captain-america-card {
+    background: linear-gradient(#4568DC, #B05AB3);
+}
+
+#iron-man-card {
+    background: linear-gradient(#e52d27, #b31217)
+}
+
+#black-widow-card {
+    background: linear-gradient(0.25turn, #000, #61045F)
+}
+
+#spider-man-card {
+    background: linear-gradient(#e52d27, #000)
+}
+
+#spider-man-card img {
+    bottom: -22px;
+}

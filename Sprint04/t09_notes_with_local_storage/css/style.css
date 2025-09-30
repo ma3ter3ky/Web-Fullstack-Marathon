@@ -1,0 +1,18 @@
+main {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+#noteInput {
+    width: 100%;
+}
+
+#notesArchive {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    min-height: 50px;
+    padding: 10px;
+    text-align: left;
+}

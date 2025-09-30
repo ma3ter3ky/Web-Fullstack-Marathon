@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Join the Avengers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>New Avenger application</h1>
+<form action="/submit" method="POST" enctype="multipart/form-data">
+    <fieldset id="outer-border">
+        <fieldset id="about-the-candidate">
+            <legend>About the Candidate</legend>
+            <div id="form-layout">
+                <div class="row-group">
+                    <label for="name">Name:&nbsp;</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">&nbsp;&nbsp;Email:&nbsp;</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="age">&nbsp;&nbsp;Age:&nbsp;</label>
+                    <input type="number" id="age" name="age" required>
+                </div>
+
+                <div id="about-section">
+                    <label for="bio">About:&nbsp;</label>
+                    <textarea id="bio" name="bio" rows="5" maxlength="500" required
+                              placeholder="Tell us about yourself, max 500 symbols"></textarea><br>
+                </div>
+                <div id="photo-section">
+                    <label for="photo">Upload your photo:&nbsp;</label>
+                    <input type="file" id="photo" name="photo" accept="image/*" required>
+                </div>
+            </div>
+        </fieldset>
+        <div id="buttons section">
+            <button id="clear-button" type="reset">Clear</button>
+            <button id="join-button" type="submit">Join the Team</button>
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>

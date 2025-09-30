@@ -1,0 +1,49 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+#the-infinity-gauntlet {
+    margin: 10px;
+}
+
+#the-infinity-gauntlet-image {
+    width: 240px;
+    cursor: pointer;
+}
+
+.people-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.person-image {
+    width: 100%;
+    height: auto;
+}
+
+#the-infinity-gauntlet-image:hover ~ .people-grid
+.person-image:nth-child(12n + 1),
+#the-infinity-gauntlet-image:hover ~ .people-grid
+.person-image:nth-child(12n + 3),
+#the-infinity-gauntlet-image:hover ~ .people-grid
+.person-image:nth-child(12n + 5),
+#the-infinity-gauntlet-image:hover ~ .people-grid
+.person-image:nth-child(12n + 8),
+#the-infinity-gauntlet-image:hover ~ .people-grid
+.person-image:nth-child(12n + 10),
+#the-infinity-gauntlet-image:hover ~ .people-grid
+.person-image:nth-child(12n + 12)
+{
+    visibility: hidden;
+}

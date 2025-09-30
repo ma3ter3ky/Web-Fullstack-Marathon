@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Oscorp - Advanced Technology Catalog</title>
+    <meta name="description" content="Oscorp's advanced technology catalog featuring cutting-edge weapons, alien tech, and experimental devices.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://www.example.com/index.html">
+    <meta name="keywords" content="Oscorp, advanced technology, weapons, alien tech, experimental devices">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="h-feed">
+<header class="h-card">
+    <div class="logo">
+        <a href="index.html" class="p-name u-url"><h1>OSCORP</h1></a>
+    </div>
+    <div class="menu-and-search">
+        <nav class="menu">
+            <ul>
+                <li><a href="#" class="u-url">About</a></li>
+                <li><a href="#" class="u-url">Service</a></li>
+                <li><a href="#" class="u-url">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <label for="search-box"></label>
+            <input type="text" id="search-box" placeholder="Search">
+        </div>
+    </div>
+    <div class="telephone">
+        <p>Phone: <span class="p-tel">+5551234567</span></p>
+    </div>
+</header>
+
+<nav class="breadcrumbs">
+    <ul>
+        <li><a href="index.html" class="u-url">Home</a></li>
+        <li> / </li>
+        <li><a href="#" class="current u-url">Catalog</a></li>
+    </ul>
+</nav>
+
+<div class="catalog">
+    <h1>Advanced Technology Catalog</h1>
+    <div class="main-filters">
+        <input type="checkbox" id="weapon-checkbox" name="weapon-checkbox" checked>
+        <label for="weapon-checkbox">Weapon</label>
+        <input type="checkbox" id="alien-checkbox" name="alien-checkbox" checked>
+        <label for="alien-checkbox">Alien</label>
+        <input type="checkbox" id="biotech-checkbox" name="biotech-checkbox" checked>
+        <label for="biotech-checkbox">BioTech</label>
+    </div>
+    <form class="form-filters">
+        <fieldset>
+            <legend>Chance of Lethal Effect</legend>
+            <input type="checkbox" id="unlikely-checkbox" name="unlikely-checkbox" checked>
+            <label for="unlikely-checkbox">Unlikely (0-20%)</label>
+            <input type="checkbox" id="mild-checkbox" name="mild-checkbox">
+            <label for="mild-checkbox">Mild (20-40%)</label>
+            <input type="checkbox" id="moderate-checkbox" name="moderate-checkbox">
+            <label for="moderate-checkbox">Moderate (40-60%)</label>
+            <input type="checkbox" id="likely-checkbox" name="likely-checkbox">
+            <label for="likely-checkbox">Likely (60-80%)</label>
+            <input type="checkbox" id="certain-checkbox" name="certain-checkbox">
+            <label for="certain-checkbox">Certain (80-100%)</label>
+        </fieldset>
+        <fieldset>
+            <legend>Price</legend>
+            <label for="price"></label>
+            <input type="range" id="price" name="price" min="0" max="20000" value="10000">
+            <div class="price-indicators">
+                <span class="low">$0</span>
+                <span class="high">$20,000</span>
+            </div>
+        </fieldset>
+    </form>
+    <div class="products-grid">
+        <div class="product product-card not-available h-product" id="product-id-1">
+            <img src="assets/images/glider.jpg" alt="Goblin Glider" class="product-img u-photo">
+            <h2 class="product-name p-name">Goblin Glider</h2>
+            <span class="price p-price" data-currency="USD">$12,499.99</span>
+            <span class="availability p-availability">Not Available</span>
+            <a href="card.html" class="buy-link u-url"><button class="buy">BUY</button></a>
+        </div>
+        <div class="product product-card available h-product" id="product-id-2">
+            <img src="assets/images/pumpkin-bomb.jpg" alt="Pumpkin Bomb" class="product-img u-photo">
+            <h2 class="product-name p-name">Pumpkin Bomb</h2>
+            <span class="price p-price" data-currency="USD">$2,214.50</span>
+            <span class="availability p-availability">Available</span>
+            <a href="#" class="buy-link u-url"><button class="buy">BUY</button></a>
+        </div>
+        <div class="product product-card available h-product" id="product-id-3">
+            <img src="assets/images/serum.jpg" alt="Oz Formula" class="product-img u-photo">
+            <h2 class="product-name p-name">Oz Formula</h2>
+            <span class="price p-price" data-currency="USD">$9,199.99</span>
+            <span class="availability p-availability">Available</span>
+            <a href="#" class="buy-link u-url"><button class="buy">BUY</button></a>
+        </div>
+        <div class="product product-card available h-product" id="product-id-4">
+            <img src="assets/images/spider.webp" alt="Radioactive Spider" class="product-img u-photo">
+            <h2 class="product-name p-name">Radioactive Spider</h2>
+            <span class="price p-price" data-currency="USD">$5,999.99</span>
+            <span class="availability p-availability">Available</span>
+            <a href="#" class="buy-link u-url"><button class="buy">BUY</button></a>
+        </div>
+    </div>
+    <div class="pagination">
+        <a href="#" class="page-link active">1</a>
+        <a href="#" class="page-link">2</a>
+        <a href="#" class="page-link">3</a>
+        <a href="#" class="page-link next">Next &raquo;</a>
+    </div>
+</div>
+<footer>
+    <p>Copyright © 2025 | OSCORP | All Rights Reserved</p>
+    <div class="footer-links">
+        <a href="#" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+    </div>
+</footer>
+</body>
+</html>

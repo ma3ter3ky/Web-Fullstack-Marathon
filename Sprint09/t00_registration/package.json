@@ -1,0 +1,12 @@
+{
+  "name": "t00-registration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "mysql2": "^3.14.1"
+  }
+}

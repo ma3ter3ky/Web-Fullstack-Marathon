@@ -1,0 +1,95 @@
+.infinity-stones-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    table-layout: fixed;
+}
+
+.infinity-stones-table td {
+    border: 2px solid #DDDDDD;
+    margin: 0;
+    vertical-align: middle;
+}
+
+
+thead {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#soul-stone-row {
+    background-color: #d6923d;
+}
+
+#time-stone-row {
+    background-color: #008001;
+}
+
+#space-stone-row {
+    background-color: #005792;
+}
+
+#mind-stone-row {
+    background-color: #FFFF05;
+}
+
+#reality-stone-row {
+    background-color: #C12A2E;
+}
+
+#power-stone-row {
+    background-color: #8175B7;
+}
+
+#name-column {
+    width: 67px;
+}
+
+#color-column {
+    width: 68px;
+}
+
+#power-and-capabilities-column {
+    width: 853px;
+}
+
+#image-column {
+    width: 140px;
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.infinite-stone-name {
+    text-align: center;
+    vertical-align: middle;
+}
+.infinite-stone-color {
+    text-align: center;
+    vertical-align: middle;
+}
+.power-and-capabilities-text {
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.infinite-stone-image-section {
+    text-align: center;
+    vertical-align: middle;
+    height: 140px;
+    width: 140px;
+}
+
+.infinite-stone-image {
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    object-fit: fill;
+    margin: auto;
+}
+
+
+.link-to-marvel-wiki {
+    text-align: center;
+}

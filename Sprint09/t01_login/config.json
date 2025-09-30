@@ -1,0 +1,6 @@
+{
+  "host": "localhost",
+  "user": "sprint_admin",
+  "password": "securepass",
+  "database": "Sprint09_DB"
+}

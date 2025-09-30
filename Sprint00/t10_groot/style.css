@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.box {
+    background-color: #DDDDDD;
+    width: calc(100vw - 200px);
+    margin: 20px auto;
+    padding: 25px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 50px);
+    height: 100%;
+    left: -25px;
+    top: -1px;
+    border: 1px solid black;
+    border-left: transparent;
+    border-right: transparent;
+}
+.box::after {
+    content: "";
+    position: absolute;
+    height: calc(100% + 50px);
+    width: 100%;
+    left: -1px;
+    top: -25px;
+    border: 1px solid black;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+

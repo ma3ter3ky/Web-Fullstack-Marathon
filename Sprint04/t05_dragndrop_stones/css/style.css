@@ -1,0 +1,52 @@
+#stone-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.stone {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: absolute;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    cursor: move;
+    background-color: gray;
+}
+
+.disabled {
+    border: 4px solid black;
+}
+
+#stone1 {
+    background-color: red;
+}
+
+#stone2 {
+    background-color: coral;
+    left: 100px;
+}
+
+#stone3 {
+    background-color: yellow;
+    left: 200px;
+}
+
+#stone4 {
+    background-color: lightblue;
+    top: 200px;
+}
+
+#stone5 {
+    background-color: green;
+    left: 100px;
+    top: 200px;
+}
+
+#stone6 {
+    background-color: purple;
+    left: 200px;
+    top: 200px;
+}

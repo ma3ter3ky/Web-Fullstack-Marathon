@@ -1,0 +1,53 @@
+.container-weather {
+    display: flex;
+
+    width: 864px;
+    height: 160px;
+    column-gap: 4px;
+}
+
+.card h2, .card p {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 120px;
+    height: 160px;
+
+    row-gap: 0;
+    column-gap: 0;
+
+    transition: box-shadow 0.16s ease-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+.date{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: lightseagreen;
+    color: white;
+    font-family: Lato bold, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.weather-image {
+    width: 100%;
+}
+
+.temperature {
+    color: black;
+    text-align: center;
+    font-family: Lato Regular, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}

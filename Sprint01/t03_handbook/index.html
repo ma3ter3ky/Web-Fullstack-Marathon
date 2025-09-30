@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Handbook </title>
+    <meta name="description" content="t03">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1> Handbook </h1>
+    <div class="topic html">
+        <h2> HTML </h2>
+        <div class="subtopic-grid">
+            <div class="subtopic" id="html-1">
+                <h3> h1 </h3>
+                <p class="description">The h1 to h6 tags are used to define HTML headings</p>
+                <p class="usage"> <code>&lt;h1&gt;</code> Title <code>&lt;/h1&gt;</code></p>
+                <div class="output">
+                    <h1 style="text-align: left; margin: 0; ">Title</h1>
+                </div>
+            </div>
+            <div class="subtopic" id="html-2">
+                <h3> table </h3>
+                <p class="description">defines an HTML table</p>
+                <p class="usage"> <code>&lt;table&gt;</code> <code>&lt;/table&gt;</code></p>
+                <div class="output">
+                    <table>
+                        <tr>
+                            <th>Country</th>
+                            <th>Country</th>
+                            <th>Country</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="subtopic" id="html-3">
+                <h3> button </h3>
+                <p class="description"> Clickable button </p>
+                <p class="usage"><code>&lt;button&gt;</code>Button<code>&lt;/button&gt;</code></p>
+                <div class="output">
+                    <button> Button </button>
+                </div>
+            </div>
+            <div class="subtopic" id="html-4">
+                <h3> input </h3>
+                <p class="description"> Designed to create text fields,
+                various buttons, radio buttons and checkboxes</p>
+                <p class="usage"><code>&lt;input attributes&gt;</code></p>
+                <div class="output">
+                    <label for="your-name-input"> Your name </label>
+                    <input type="text" id="your-name-input" placeholder="Enter your name">
+                    <br>
+                    <br>
+                    <label for="question-input-1">Question</label>
+                    <br>
+                    <input type="radio" name="answer" id="question-input-1">
+                    <label for="question-input-1">answer</label>
+                    <br>
+                    <input type="radio" name="answer" id="question-input-2">
+                    <label for="question-input-2">answer</label>
+                    <br>
+                    <input type="radio" name="answer" id="question-input-3">
+                    <label for="question-input-3">answer</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="topic css">
+        <h2> CSS </h2>
+        <div class="subtopic-grid">
+            <div class="subtopic" id="css-1">
+                <h3> background </h3>
+                <p class="description">specifies the background of an element</p>
+                <p class="usage"><code>background: [value];</code></p>
+                <div class="output" style="background: red; color: white; font-weight: bold; min-height: 64px; padding: 10px;">
+                    Text
+                </div>
+            </div>
+
+            <div class="subtopic" id="css-2">
+                <h3> opacity </h3>
+                <p class="description">specifies the opacity/transparency of an element</p>
+                <p class="usage"><code>opacity: 0.5;</code></p>
+                <div class="output">
+                    <div style="background: green; opacity: 0.5; width: 50px; height: 50px;"></div>
+                </div>
+            </div>
+
+            <div class="subtopic" id="css-3">
+                <h3> line-height </h3>
+                <p class="description">specifies the height of a line</p>
+                <p class="usage"><code>line-height: 1.5;</code></p>
+                <div class="output" style="line-height: 1.5;">
+                    Lorem ipsum dolor. <br>
+                    Lorem ipsum dolor.
+                </div>
+            </div>
+
+            <div class="subtopic" id="css-4">
+                <h3> text-transform </h3>
+                <p class="description">controls the capitalization of text</p>
+                <p class="usage"><code>text-transform: uppercase;</code></p>
+                <div class="output" style="text-transform: uppercase;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, dolore.
+                </div>
+            </div>
+
+            <div class="subtopic" id="css-5">
+                <h3> border </h3>
+                <p class="description">specifies the style of the outline</p>
+                <p class="usage"><code>border-bottom: 4px solid red;</code></p>
+                <div class="output" style="border-bottom: 4px solid red; padding-bottom: 5px;">
+                    Border example
+                </div>
+            </div>
+
+            <div class="subtopic" id="css-6">
+                <h3> font-size </h3>
+                <p class="description">specifies the font size of the item.</p>
+                <p class="usage"><code>font-size: 20px;</code></p>
+                <div class="output" style="font-size: 20px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ratione, esse.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="topic protocols">
+        <h2> PROTOCOLS </h2>
+        <div class="subtopic-grid">
+
+            <div class="subtopic" id="protocols-1">
+                <h3> HTTP methods </h3>
+                <div class="output">
+                    <ul>
+                        <li><strong>GET</strong> - use this type of request to retrieve resource representation/information only – and not to modify it in any way<br><br></li>
+                        <li><strong>POST</strong> - used to create a new resource into the collection of resources<br><br></li>
+                        <li><strong>PUT</strong> - primarily used to update an existing resource<br><br></li>
+                        <li><strong>DELETE</strong> - used to delete resources (identified by the Request-URI)<br><br></li>
+                        <li><strong>PATCH</strong> - HTTP PATCH requests are to make partial updates on a resource<br></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="subtopic" id="protocols-2">
+                <h3> HTTP status codes </h3>
+                <div class="output">
+                    <ul>
+                        <li><strong>1xx:</strong> Informational – Example: 100 Continue<br><br></li>
+                        <li><strong>2xx:</strong> Success – Example: 201 Created<br><br></li>
+                        <li><strong>3xx:</strong> Redirection – Example: 301 Moved Permanently<br><br></li>
+                        <li><strong>4xx:</strong> Client Error – Example: 404 Not Found<br><br></li>
+                        <li><strong>5xx:</strong> Server Error – Example: 500 Internal Server Error<br></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="subtopic" id="protocols-3">
+                <h3> DNS list by types </h3>
+                <div class="output">
+                    <ul>
+                        <li><strong>A</strong> - (address record) - specifies an IPv4 address for a given host.<br><br></li>
+                        <li><strong>AAAA</strong> - (IPv6 address record) - specifies an IPv6 address for a given host.<br><br></li>
+                        <li><strong>CNAME</strong> - (canonical name record) - specifies a domain alias.<br><br></li>
+                        <li><strong>HINFO</strong> - (Host information record) - provides system-specific details.<br><br></li>
+                        <li><strong>ISDN</strong> - (Integrated Services Digital Network record) - specifies ISDN addresses.<br><br></li>
+                        <li><strong>MX</strong> - (Mail exchange record) - specifies mail exchange servers.<br><br></li>
+                        <li><strong>NS</strong> - (Name server record) - specifies an authoritative name server.<br><br></li>
+                        <li><strong>PTR</strong> - (Pointer record) - used to reverse DNS resolution.<br><br></li>
+                        <li><strong>SOA</strong> - (Start of Authority record) - specifies DNS zone details.<br><br></li>
+                        <li><strong>TXT</strong> - (Text record) - used to store arbitrary text data.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="subtopic" id="protocols-4">
+                <h3> Identifying Google's IP </h3>
+                <div class="output">
+                    <ol>
+                        <li>Open Terminal<br><br></li>
+                        <li>Paste and run the command: <code>nslookup google.com</code><br><br></li>
+                        <li>Result example:
+                            <ul>
+                                <li>Name: google.com.ua</li>
+                                <li>Address: 216.58.215.99</li>
+                            </ul>
+                            <br><br>
+                        </li>
+                        <li>Repeat steps 1 and 2 to identify another IP</li>
+                    </ol>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charset Converter</title>
+    <meta name="description" content="t02. Charset converter">
+</head>
+<body>
+<main>
+    <h1>Charset</h1>
+    <form method="GET" action="/">
+        <label for="input">Change charset:</label>
+        <input type="text" id="input" name="input" required>
+
+        <label for="charset">Select charset or several charsets:</label>
+        <select id="charset" name="charset" multiple size="3" required>
+            <option value="utf8">UTF-8</option>
+            <option value="latin1">ISO-8859-1</option>
+            <option value="win1252">Windows-1252</option>
+        </select>
+
+        <input type="submit" name="action" value="Change charset">
+        <input type="submit" name="action" value="Clear">
+    </form>
+</main>
+</body>
+</html>

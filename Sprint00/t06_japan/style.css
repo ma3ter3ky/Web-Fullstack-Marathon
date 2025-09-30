@@ -1,0 +1,19 @@
+.japan {
+    margin: 20px;
+    border: 2px solid gray;
+    min-height: 200px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.japan::before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: #AD2332;
+    border-radius: 50%;
+}

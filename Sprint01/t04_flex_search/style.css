@@ -1,0 +1,41 @@
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+
+    width: 100%;
+}
+.flex-container h1 {
+    text-align: center;
+    min-width: 100%;
+}
+
+#search-box {
+    flex-grow: 1;
+    min-width: 0;
+    padding: 4px;
+    font-size: 16px;
+}
+
+#search-box:focus {
+    outline: none;
+    border: 2px solid #0079c9;
+    color: #008001;
+    caret-color: #009600;
+}
+
+#search-box:not(:focus):not(:placeholder-shown) {
+    color: #008001;
+}
+
+#search-box:not(:focus):not(:placeholder-shown):hover {
+    color: red;
+}
+
+#search-box:focus::placeholder {
+    color: transparent;
+}
+
+#find-button:hover {
+    color: red;
+}

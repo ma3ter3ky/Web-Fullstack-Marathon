@@ -1,0 +1,11 @@
+{
+  "name": "t02_charset",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.6.3"
+  }
+}

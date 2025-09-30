@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-container {
+    display: flex;
+    position: relative;
+    width: 60vw;
+    overflow: hidden;
+}
+
+#slider {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.arrow {
+    width: 40px;
+    background: rgba(189, 189, 189, 0.5);
+    border: none;
+    border-radius: 0;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+.arrow:hover {
+    background: rgba(0,0,0,0.3);
+}
